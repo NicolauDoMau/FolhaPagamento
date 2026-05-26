@@ -65,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
 
-                //calculo desconto de INSS
                 if (salario <= 1212.00){
                     descINSS =  salario * 0.075;
                     salFam = filho*56.47;
@@ -77,7 +76,6 @@ public class MainActivity extends AppCompatActivity {
                     descINSS =  salario * 0.014;
                 }
 
-                //calculo desconto IR
                 if (salario < 1903.99) {
                     descIR = 0;
                 } else if (salario <= 2862.65) {
